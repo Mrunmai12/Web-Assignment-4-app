@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
     <meta charset="utf-8">
-        <title>Data Classes in PHP Assignment</title>
+        <title>Assignment - 4</title>
         <!-- CSS only -->
         <style>  
           .container{
@@ -27,27 +27,26 @@
     </head>
     
     <body>
-    <nav class="navbar navbar-light justify-content-center" style="background-color: #e3f2fd;">
-      <a class="navbar-brand" href="#">
-        <img src="logo.png" width="45" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-        Web Technology Assignment 4 
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="https://github.com/Mrunmai12/Web-Assignment-4-app">
+        <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        WT Assignment 4 
       </a>
     </nav>
 
     <div class="cont">
-      <h1>Please Select ID from drop down list to view details of your supper</h1>
-      <h2>Bon Appetit!</h2>
+      <h1>Welcome!!! Select your dish from list below</h1>
     </div>
       <div class="container">
       <select name="item restaurant-dropdown restaurant" class="custom-select custom-select-lg mb-3" id="restaurant">
-        <option value="">Select Dish (Click to select)</option>
+        <option value="">Select Dish</option>
     </select>
     <br>
   
     <table id="tabl" class="table thead-dark table-striped table-hover table-borderless">
       
       <tr>
-        <th class = "table-primary">ID</th>
+        <th>ID</th>
         <td id="id"></td>
       </tr>
       <tr>
@@ -75,13 +74,13 @@
     </div>
         
     <footer class="page-footer font-small stylish-color-dark bg-dark pt-4" style="position:fixed; bottom:0;width: 100%;">
-      <div class="footer-copyright text-center py-3" style="background: #A9A9A9">Rutik Pol, 0120180213
+      <div class="footer-copyright text-center py-3" style="background: #A9A9A9">Mrunmai Bhole, 0120180105
       </div>
     </footer>
             
         <script src="jquery-3.5.1.min.js"></script>
         <script>
-        let base_url = "http://localhost/datafetch.php";
+        let base_url = "datafetch.php";
 
         $("document").ready(function(){
             getRestaurantMenuList();
