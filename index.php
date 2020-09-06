@@ -35,7 +35,7 @@
     </nav>
 
     <div class="cont">
-      <h1>Welcome!!! Select your dish from list below</h1>
+      <h1 class = "text-white" >Welcome!!! Select your dish from list below</h1>
     </div>
       <div class="container">
       <select name="item restaurant-dropdown restaurant" class="custom-select custom-select-lg mb-3" id="restaurant">
