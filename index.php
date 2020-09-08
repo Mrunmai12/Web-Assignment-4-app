@@ -30,7 +30,7 @@
     <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
       <a class="navbar-brand" href="https://github.com/Mrunmai12/Web-Assignment-4-app">
         <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-        WT Assignment 4 
+        WT Assignment 4 ----BY MRUNMAI BHOLE(0120180105)
       </a>
     </nav>
 
@@ -39,7 +39,7 @@
     </div>
       <div class="container">
       <select name="item restaurant-dropdown restaurant" class="custom-select custom-select-lg mb-3" id="restaurant">
-        <option value="">Select Dish</option>
+        <option value="">click here!</option>
     </select>
     <br>
   
@@ -73,9 +73,17 @@
 
     </div>
         
-    <footer class="page-footer font-small stylish-color-dark bg-dark pt-4" style="position:fixed; bottom:0;width: 100%;">
-      <div class="footer-copyright text-center py-3" style="background: #A9A9A9">Mrunmai Bhole, 0120180105
+<footer class="page-footer font-small stylish-color-dark bg-dark pt-4" style="position:fixed; bottom:0;width: 100%;">
+      <div class="footer-copyright text-center py-3" style="background:   #FFDAB9">
+          <div class="btn-o bg" data-scribe="component:button" style="width: 100%;"><a href="https://www.instagram.com/" class="btn" id="b">
+    <i class="fa fa-instagram ft14"></i>
+    <span class="label" id="l">Instagram</span></a></div></div>
+    <div class="footer-copyright text-center py-3" style="background:   #FFDAB9">
+          <div class="btn-o bg" data-scribe="component:button" style="width: 100%;"><a href="https://www.linkedin.com/company/mit-aoe/" class="btn" id="b">
+    <i class="fa fa-linkedin ft14"></i>
+    <span class="label" id="l">Linked in</span></a></div></div>
       </div>
+
     </footer>
             
         <script src="jquery-3.5.1.min.js"></script>
